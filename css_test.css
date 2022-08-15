@@ -1,0 +1,148 @@
+h1
+{
+    width:  40%;
+    margin:  auto;
+    color: blue;
+    text-align: center;
+    border: 4px purple solid;
+    border-radius: 30px;
+    box-shadow: 6px 6px 10px purple;
+/* les 4 valeurs sont le décalage horizontal, vertical, adoucissement dégradé, couleur de l'ombre 
+Voir dans le cours les différents types de bordures possibles */
+}
+
+body
+{
+    background : url("plumes.jpg") fixed no-repeat
+}
+
+
+h2, mark, em
+{
+    color: green;
+}
+/* Ici je mets un commentaire pour tester */
+
+.effetcss
+{
+    color: red;
+}
+
+.paragraphe
+{
+    color: purple;
+}
+
+h1 + p
+{
+    color: skyblue;
+}
+
+h4
+{
+    font-size: 26px;
+    background-color: #B2DFF1;
+}
+
+/* ecriture de couleur possible en marquant rgb (valeur, valeur, valeur) et même rgba et l'on rajoute une 4ème valeur transparente entre 0 et 1 */
+
+.italique
+{
+    font-style: italic;
+    color: blue;
+}
+
+.gras
+{
+    font-weight: bold;
+    color: green;
+}
+
+.souligner
+{
+    text-decoration: underline;
+    color: pink;
+}
+
+    @font-face {  
+    font-family: Benedict;
+    src:  url ('Benedict-Font-Duo/Benedict.otf') format ('otf');
+
+}
+
+.policedifferente
+{
+    font-family: Benedict;
+}
+
+h4 + p
+{
+    text-align: justify;
+}
+
+.flottantgauche
+{
+    float: left;
+}
+
+.flottantdroite
+{
+    clear: right;
+    float: right;
+}
+
+.couleurdoree
+{
+    color: #C59A4A;
+}
+
+p:hover
+{
+    border-left: 2px dotted purple;
+}
+
+a:active
+{
+    color: blue;
+}
+
+a:hover
+{
+    color: #C59A4A;
+}
+
+a:visited: 
+{
+color: #888888
+}
+
+p
+{
+    padding:  12px;
+}
+
+#moncadre
+{
+    clear:  left;
+    width:  200px;
+    height:  100px;
+    text-align:  justify;
+    border:  1px solid purple;
+    overflow:  auto;
+}
+/* propriété wordwrap: break-word pour découper un mot trop long pour qu'il aille à la ligne*/
+
+ul
+{
+    list-style-type: none;
+}
+
+#deuxparagraphes
+{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+
+

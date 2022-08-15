@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css_test.css" />
+        <title>Premiers tests du CSS</title>
+    </head>
+
+<!-- Autre option pour ajouter le CSS direct sur la page, dans head (exactement à la place de <link>) on peut rajouter la balise style:
+
+    <head>
+        <meta charset="utf-8" />
+        <style>
+            p
+            {
+                color: blue;
+            }
+        </style>
+        <title>Premiers tests du CSS</title>
+    </head> 
+Ici tout le texte est en bleu
+-->
+
+    <body>
+        <h1>Mon super site</h1>
+        
+        <p><mark>Bonjour</mark> et bienvenue sur mon site !</p>
+        <p>Pour le moment, mon site est un peu <em>vide</em>. Patientez encore un peu !</p>
+
+        <h2>Juste pour m'entrainer </h2>
+
+        <p class="effetcss">Ici je note quelques infos car j'ai besoin de <span class="paragraphe">paragraphes</span> pour pouvoir mettre des effets dessus et m'entrainer à changer le style en appliquants du CSS dessus</p>
+<!-- Je peux mettre id="effetcss" à la place de class mais un id doit n'apparaitre qu'une fois dans la page (pour un logo par ex). Sur l'autre fichier CSS il faudrait alors mettre #effetcss avant de mettre les propriétés, non pas le point -->
+
+        <h3>Un petit titre histoire de vérifier les différentes options</h3>
+
+        <p> Je note en paragraphes les sélecteurs de balises <span class="paragraphe">spécifiques</span>, c-a-d l'étoile qui sélectionne toutes les balises, deux noms d'affilée qui signifie la deuxième dans la première (par ex H3 em cela signifie tous les mots importants dans les titres 3, ensuite un nom + un nom que j'ai appliqué sur ce paragraphe.) <br/>
+        Pour d'autres voir le cours que j'ai recopié, avec le lien vers W3C </p>
+
+        <h3>On passe aux exercices suivants </h3>
+
+        <p> <span class="policedifferente"> Ici il va s'agir de changer la police de mon texte, je peux choisir blah blah par exemple. </span><br/>
+        Je mets un autre paragraphe pour apprendre à changer des tailles et des caractéristiques spécifiques sur le texte, genre mettre en <span class="italique">italique </span>, mettre en <span class="gras">gras </span>, <span class="souligner">souligner une partie...</span> </p>
+
+        <h4> Ici un titre pour l'alignement </h4>
+
+        <p> Je fais faire un grand paragraphe juste histoire d'avoir quelques lignes pour apprendre à justifier le texte sur plusieurs lignes. Nous arrivons maintenant à un chapitre qui devrait beaucoup vous intéresser. Non, le « formatage du texte » n'a rien à voir avec la destruction de toutes les données présentes sur votre disque dur ! Cela signifie simplement que l'on va modifier l'apparence du texte (on dit qu'on le « met en forme »). Pas de surprise particulière : nous sommes toujours dans le CSS, et nous allons réutiliser ce que nous venons d'apprendre dans le chapitre précédent. Nous allons donc travailler directement au sein du fichier .css  que nous avons créé. Ce chapitre va être l'occasion de découvrir de nombreuses propriétés CSS : nous allons voir comment modifier la taille du texte, changer la police, aligner le texte…</p>
+
+         <p>J'insère un lien dans ma page pour faire un effet sur le lien et aussi lorsqu'il a été visité. Par exemple, je vous invite à visiter le site internet que j'ai créé pour <a href="https://amelie-mariage.fr"title="Voir le site d'une parfaite wedding planner"target="_blank">Amélie Mariage</a>. </p>
+
+
+        <h3>Images flottantes </h3>
+
+    <div id="deuxparagraphes">
+
+        <p> <img src="logo_ambre.png" alt="logo" class="flottantgauche"/> Je présente ici  différents infos histoire de faire du texte à mettre à côté d'une image et apprendre à le disposer différemment. Retrouvez-moi Ô Réveil du Soi à Sainte luce sur Loire tous les jourds sur rdv. Je voudrais mettre ce texte collé à la photo et ca fait bien propre c'est intéressant. Je fais faire un grand paragraphe juste histoire d'avoir quelques lignes pour apprendre à justifier le texte sur plusieurs lignes. Je recopie: nous arrivons maintenant à un chapitre qui devrait beaucoup vous intéresser. Non, le <span class=couleurdoree>formatage du texte </span>n'a rien à voir avec la destruction de toutes les données présentes sur votre disque dur ! Cela signifie simplement que l'on va modifier l'apparence du texte (on dit qu'on le « met en forme »). <br/>
+        Pas de surprise particulière : nous sommes toujours dans le CSS, et nous allons réutiliser ce que nous venons d'apprendre dans le chapitre précédent. Nous allons donc travailler directement au sein du fichier .css  que nous avons créé. Ce chapitre va être l'occasion de découvrir de nombreuses propriétés CSS : nous allons voir comment modifier la taille du texte, changer la police, aligner le texte… </p>
+
+        <p> <img src="logo_ambre.png" alt="logo" class="flottantdroite"/> Je présente ici  différentes infos histoire de faire du texte à mettre à côté d'une image et apprendre à le disposer différemment. Retrouvez-moi Ô Réveil du Soi à Sainte luce sur Loire tous les jourds sur rdv. Je voudrais mettre ce texte collé à la photo et ca fait bien propre c'est intéressant. Je fais faire un grand paragraphe juste histoire d'avoir quelques lignes pour apprendre à justifier le texte sur plusieurs lignes. Je recopie: nous arrivons maintenant à un chapitre qui devrait beaucoup vous intéresser. Non, le « formatage du texte » n'a rien à voir avec la destruction de toutes les données présentes sur votre disque dur ! Cela signifie simplement que l'on va modifier l'apparence du texte (on dit qu'on le « met en forme »). <br/>
+        Pas de surprise particulière : nous sommes toujours dans le CSS, et nous allons réutiliser ce que nous venons d'apprendre dans le chapitre précédent. Nous allons donc travailler directement au sein du fichier .css  que nous avons créé. Ce chapitre va être l'occasion de découvrir de nombreuses propriétés CSS : nous allons voir comment modifier la taille du texte, changer la police, aligner le texte… </p>
+
+    </div>
+
+        <p id="moncadre"> Je mets ici un paragraphe dans un cadre afin d'avoir beaucoup beaucoup de texte et faire des exercices de centrage et surtout d'apprendre à mettre automatiquement un curseur sur le côté si le texte dépasse du cadre. Il faut donc blah blah je continue blah blah et puis aussi blah blah parce qu'il faut bien blah blah et aiussi encore un peu de blah blah ok on est bon ca devrait suffir pour finir l'exercice. </p>
+
+        <p>Juste pour tester une manière différente de faire une liste à puces sans les puces: </p>
+        <ul>
+            <li>Premier élément </li>
+            <li> Deuxième élément </li>
+            <li> Troisième élément </li>
+
+        </ul>
+
+
+    </body>
+</html>
+
